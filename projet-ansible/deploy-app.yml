@@ -1,5 +1,5 @@
 ---
-- hosts: all
+- hosts: staging
   become: true
   roles:
     - { role: basic-apache-container}
